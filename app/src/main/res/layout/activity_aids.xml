@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aids">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIV/AIDS"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:id="@+id/title_ebola"
+        />
+
+    <TextView
+        android:id="@+id/description_aids1"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_ebola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Human immunodeficiency virus infection and acquired immune deficiency syndrome (HIV/AIDS) is a spectrum of conditions caused by infection with the human immunodeficiency virus (HIV). Following initial infection, a person may not notice any symptoms or may experience a brief period of influenza-like illness. Typically, this is followed by a prolonged period with no symptoms. It interferes more with the immune system, increasing the risk of developing common infections such as tuberculosis, as well as other opportunistic infections, and tumors that rarely affect people who have uncompromised immune systems. "
+        android:textAlignment="center"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/description_aids2"
+        android:layout_width="319dp"
+        android:layout_height="217dp"
+        android:layout_below="@id/description_aids1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="These late symptoms of infection are referred to as acquired immunodeficiency syndrome (AIDS). This stage is often also associated with unintended weight loss. HIV is spread primarily by unprotected sex (including anal and oral sex), contaminated blood transfusions, hypodermic needles, and from mother to child during pregnancy, delivery, or breastfeeding"
+        android:textAlignment="center"
+        android:textSize="17dp" />
+
+</RelativeLayout>

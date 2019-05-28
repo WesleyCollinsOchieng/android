@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Loginscreen"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KINDLY LOGIN"
+        android:textColor="@color/pink"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:id="@+id/kindlylogin"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kindlylogin"
+        android:layout_centerInParent="true"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_face"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock"/>
+
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:background="@color/pink"
+        android:text="LOGIN"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_login"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_login"
+        android:background="@color/pink"
+        android:text="REGISTER"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_Register"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="167dp"
+        android:layout_height="141dp"
+        android:layout_above="@id/kindlylogin"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/ic_person_icon"
+        android:id="@+id/person"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEALTHOMATIC"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_above="@id/person"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anaplasmosis">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANAPLASMOSIS"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:id="@+id/title_ebola"
+        />
+
+    <TextView
+        android:id="@+id/description_aids1"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_ebola"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Anaplasmosis is a disease caused by a rickettsial parasite of ruminants, Anaplasma spp and is therefore related to rickettsial disease. The microorganisms are Gram-negative, and infect red blood cells. They are transmitted by natural means through a number of haematophagous species of ticks. The Ixodes tick that commonly transmits Lyme disease also spreads anaplasmosis."
+        android:textAlignment="center"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/description_aids2"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_aids1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Anaplasmosis is classified as a tick borne disease.Classic signs and symptoms of anaplasmosis include fever, a decreased number of white blood cells, platelets in the bloodstream, and abnormally elevated levels of liver enzymes. The erythema chronicum migrans rash may be seen with anaplasmosis as it is co-transmitted in 10% of Lyme disease cases.
+
+Anemia may be severe and result in cardiovascular changes such as an increase in heart rate. Blood in the urine may occur due to the lysis of red blood cells. General systemic signs such as diarrhea, anorexia, and weight loss may also be present."
+        android:textAlignment="center"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>

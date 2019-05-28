@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fine">
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_menu"
+        android:id="@+id/menu"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/menu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I AM GLAD"
+        android:textSize="30dp"
+        android:id="@+id/glad"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-40dp"
+        android:textColor="@color/pink"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/thumb_up"
+        />
+
+    <ImageView
+        android:id="@+id/thumb_up"
+        android:layout_width="184dp"
+        android:layout_height="169dp"
+        android:layout_above="@id/wte"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/ic_doctor_icon" />
+
+    <Button
+        android:id="@+id/wte"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/pink"
+        android:text="WHAT TO EAT"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/pink"
+        android:text="WORKOUT ADVISE"
+        android:textSize="20dp"
+        android:id="@+id/woa"
+        android:layout_below="@id/wte"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/pink"
+        android:text="WHAT TO WEAR"
+        android:textSize="20dp"
+        android:id="@+id/wtw"
+        android:layout_below="@id/woa"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/pink"
+        android:text="BROWSE DISEASES"
+        android:textSize="20dp"
+        android:id="@+id/browse_d"
+        android:layout_below="@id/wtw"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diseases_list"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ebola"
+            android:id="@+id/ebola_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aids"
+            android:id="@+id/aids_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anaplasmosis"
+            android:id="@+id/Anaplasmosis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Angiostrongyliasis"
+            android:id="@+id/Angiostrongyliasis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anisakiasis"
+            android:id="@+id/Anisakiasis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arcanobacterium haemolyticum infection"
+            android:id="@+id/Arcanobacterium_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Argentine hemorrhagic fever"
+            android:id="@+id/Argentine_hemorrhagic_fever_bt"/>
+
+        <Button
+            android:id="@+id/Ascariasis_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ascariasis" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anthrax"
+            android:id="@+id/Anthrax_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aspergillosis"
+            android:id="@+id/Aspergillosis_bt"/>
+
+        <Button
+            android:id="@+id/Astrovirus_infection_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Astrovirus infection" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Babesiosis"
+            android:id="@+id/Babesiosis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacillus cereus infection"
+            android:id="@+id/Bacillus_cereus_infection_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacterial meningitis"
+            android:id="@+id/Bacterial_meningitis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacterial pneumonia"
+            android:id="@+id/Bacterial_pneumonia_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacterial vaginosis"
+            android:id="@+id/Bacterial_vaginosis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bacteroides infection"
+            android:id="@+id/Bacteroides_infection_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balantidiasis"
+            android:id="@+id/Balantidiasisbt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bartonellosis "
+            android:id="@+id/Bartonellosis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baylisascaris infection"
+            android:id="@+id/Baylisascaris_infection_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BK virus infection"
+            android:id="@+id/BK_virus_infection_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black piedra"
+            android:id="@+id/Black_piedra_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blastocystosis"
+            android:id="@+id/Blastocystosis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blastomycosis"
+            android:id="@+id/Blastomycosis_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bolivian hemorrhagic fever"
+            android:id="@+id/Bolivian_hemorrhagic_fever_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Botulism (and Infant botulism)"
+            android:id="@+id/Botulism_bt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brazilian hemorrhagic fever"
+            android:id="@+id/Brazilian_hemorrhagic_fever_bt"/>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:text="HEALTHOMATIC"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/pink"
+        android:layout_centerInParent="true"
+        android:id="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Your mini doctor"
+        android:layout_below="@id/title"
+        android:layout_centerInParent="true"
+        android:id="@+id/description"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An app by Wesley Collins"
+        android:textSize="20dp"
+        android:layout_below="@id/description"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"/>
+
+    <ImageView
+        android:layout_width="257dp"
+        android:layout_height="154dp"
+        android:src="@drawable/ic_wheelchair"
+        android:layout_above="@id/title"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
